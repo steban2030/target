@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*hace que el border y el ancho de un elemneto icluya tambien*/
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+body {
+    background-image: url(../assets/fondo-paisaje.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;                  
+    margin: 0;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.targeta {
+    background: rgba(196, 221, 255, 0.098);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(233, 245, 255, 0.285);
+    border-radius: 40px;
+    box-shadow: 0 0 20px 0 rgba(71, 71, 71, 0.2);
+    width: 329px;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    padding: 15px;
+}
+
+
+.perfil {
+    margin: 15px 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+
+.enlaces a {
+    font-size:smaller;
+    display: block;
+    margin: 15px 20px;
+    padding: 15px;
+    border-radius: 14px;
+    background-color: rgba(0, 17, 41, 0.397);
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.enlaces a:hover {
+    background-color: rgba(223, 243, 255, 0.632);
+}
+
+
+.redes a {
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: transfrom 0.2s;
+
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+}
