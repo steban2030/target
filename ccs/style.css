@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*hace que el border y el ancho de un elemneto icluya tambien*/
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, sans-serif;
 }
 
 
@@ -27,61 +26,52 @@ body {
 }
 
 .targeta {
+    font-weight: bold;
+    color: white;
+    text-align:center;
     background: rgba(196, 221, 255, 0.098);
     backdrop-filter: blur(20px);
     border: 1px solid rgba(233, 245, 255, 0.285);
     border-radius: 40px;
     box-shadow: 0 0 20px 0 rgba(71, 71, 71, 0.2);
     width: 329px;
-    text-align: center;
 }
-
-
-h1 {
-    color: white;
-}
-
-p {
-    color: white;
-    padding: 15px;
-}
-
 
 .perfil {
     margin: 15px 0;
     width: 150px;
     height: 150px;
     border-radius: 150px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+p {
+    margin: 0;
+    padding: 10px;
 }
 
-
 .enlaces a {
-    font-size:smaller;
     display: block;
-    margin: 15px 20px;
+    margin: 12px 25px;
     padding: 15px;
     border-radius: 14px;
     background-color: rgba(0, 17, 41, 0.397);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; transform: o.3s ease;
 }
 
 .enlaces a:hover {
-    background-color: rgba(223, 243, 255, 0.632);
+    background-color:#4E60FF;
+    transform: scale(1.05);
 }
-
 
 .redes a {
     display: inline-block;
-    margin: 10px 10px;
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    transition: transfrom 0.2s;
-
+    padding: 15px 2px;
+    transition: transfrom 3.0s ease;
 }
 
 .redes a:hover {
-    transform: scale(1.2);
+    transform: scale(1.50);
 }
